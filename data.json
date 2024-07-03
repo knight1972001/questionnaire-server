@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "type": "checkbox",
+    "question": "Which of the following are programming languages?",
+    "option": ["Python", "Java", "HTML", "CSS"],
+    "answer": ["Python", "Java"]
+  },
+  {
+    "id": 2,
+    "type": "dropdown-rank",
+    "question": "Rank the following programming languages in order of their creation date.",
+    "option": ["C", "Go", "JavaScript", "Python"],
+    "answer": {
+      "1": "C",
+      "2": "Python",
+      "3": "JavaScript",
+      "4": "Go"
+    }
+  },
+  {
+    "id": 3,
+    "type": "radio button",
+    "question": "Is Python an interpreted language?",
+    "option": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "question": "What is the capital of Thailand?",
+    "answer": "Bangkok"
+  },
+  {
+    "id": 5,
+    "type": "checkbox",
+    "question": "Which of the following are cloud service providers?",
+    "option": ["AWS", "Azure", "GCP", "Heroku"],
+    "answer": ["AWS", "Azure", "GCP"]
+  },
+  {
+    "id": 6,
+    "type": "dropdown-matching",
+    "question": "Match the database type with its characteristic.",
+    "option": {
+      "right": ["SQL", "NoSQL"],
+      "left": ["Unstructured data", "Structured data"]
+    },
+    "answer": {
+      "SQL": "Structured data",
+      "NoSQL": "Unstructured data"
+    }
+  },
+  {
+    "id": 7,
+    "type": "radio button",
+    "question": "Is HTML a programming language?",
+    "option": ["Yes", "No"],
+    "answer": "No"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "What does CI/CD stand for?",
+    "answer": "Continuous Integration/Continuous Deployment"
+  },
+  {
+    "id": 9,
+    "type": "checkbox",
+    "question": "Which of the following are web frameworks?",
+    "option": ["Django", "React", "Flask", "TensorFlow"],
+    "option": ["Django", "React", "Flask", "TensorFlow"],
+    "answer": ["Django", "React", "Flask"]
+  },
+  {
+    "id": 10,
+    "type": "dropdown-rank",
+    "question": "Rank the following CI/CD tools by their popularity.",
+    "option": ["Travis CI", "Jenkins", "CircleCI", "GitHub Actions"],
+    "answer": {
+      "1": "Jenkins",
+      "2": "GitHub Actions",
+      "3": "CircleCI",
+      "4": "Travis CI"
+    }
+  },
+  {
+    "id": 11,
+    "type": "radio button",
+    "question": "Is GCP a product of Google?",
+    "option": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "question": "What is the default port for HTTP?",
+    "answer": "80"
+  },
+  {
+    "id": 13,
+    "type": "checkbox",
+    "question": "Which of the following are containerization tools?",
+    "option": ["Docker", "Kubernetes", "Vagrant", "Podman"],
+    "answer": ["Docker", "Kubernetes"]
+  },
+  {
+    "id": 14,
+    "type": "dropdown-matching",
+    "question": "Match the following programming languages with their respective domains.",
+    "option": {
+      "left": ["Python", "JavaScript", "C++", "Swift"],
+      "right": [
+        "iOS Development",
+        "System Programming",
+        "Web Development",
+        "Data Science"
+      ]
+    },
+    "answer": {
+      "Python": "Data Science",
+      "JavaScript": "Web Development",
+      "C++": "System Programming",
+      "Swift": "iOS Development"
+    }
+  },
+  {
+    "id": 15,
+    "type": "radio button",
+    "question": "Is Linux an operating system?",
+    "option": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "id": 16,
+    "type": "text",
+    "question": "What is the full form of API?",
+    "answer": "Application Programming Interface"
+  },
+  {
+    "id": 17,
+    "type": "checkbox",
+    "question": "Which of the following are NoSQL databases?",
+    "option": ["MongoDB", "Cassandra", "MySQL", "PostgreSQL"],
+    "answer": ["MongoDB", "Cassandra"]
+  },
+  {
+    "id": 18,
+    "type": "dropdown-rank",
+    "question": "Rank the following front-end frameworks by their usage.",
+    "option": ["Angular", "React", "Svelte", "Vue"],
+    "answer": {
+      "1": "React",
+      "2": "Vue",
+      "3": "Angular",
+      "4": "Svelte"
+    }
+  },
+  {
+    "id": 19,
+    "type": "radio button",
+    "question": "Is TypeScript a superset of JavaScript?",
+    "option": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "id": 20,
+    "type": "text",
+    "question": "What is the primary language used for Android development?",
+    "answer": "Java"
+  }
+]
