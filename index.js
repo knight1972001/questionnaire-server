@@ -44,6 +44,7 @@ app.get("/questions", (req, res) => {
 app.post("/submit", (req, res) => {
   const answers = req.body;
   console.log("Checking answers");
+  console.log(answers);
   if (!answers || !Array.isArray(answers)) {
     res.status(400).json({
       error: "Invalid submission format. Expected an array of answers.",
@@ -68,8 +69,8 @@ app.post("/submit", (req, res) => {
       }
     } else if (typeof correctAnswer === "object") {
       // Compare objects for dropdown type questions
-      const correctValues = Object.values(correctAnswer).sort();
-      const submittedValues = Object.values(submittedAnswer).sort();
+      const correctValues = Object.values(correctAnswer);
+      const submittedValues = Object.values(submittedAnswer);
       if (arraysEqual(correctValues, submittedValues)) {
         totalPoints++;
       }
