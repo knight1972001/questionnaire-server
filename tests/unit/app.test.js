@@ -149,13 +149,13 @@ describe("POST /submit", () => {
   });
 
   // id: 6. Match the database type with its characteristic. "SQL": "Structured data","NoSQL": "Unstructured data"
-  it("should return status code 200 with 1 points for correct matching not in order answer", async () => {
+  it("should return status code 200 with 1 points for correct matching in order answer", async () => {
     const emptyAnswers = [
       {
         id: 6,
         answer: {
-          NoSQL: "Unstructured data",
           SQL: "Structured data",
+          NoSQL: "Unstructured data",
         },
       },
     ];
